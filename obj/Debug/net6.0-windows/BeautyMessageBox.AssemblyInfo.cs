@@ -19,6 +19,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("BeautyMessageBox")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BeautyMessageBox")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/bopdidus/Beauty.git")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 

@@ -3,15 +3,15 @@ BeautyMessageBox works exactly like default MessageBox of .NET
 
 ## Enum BeautyMessageType
 - Error: <br/>
-![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/error.png)
+![alt text](https://github.com/bopdidus/Beauty/blob/master/error.png)
 - Warning : <br/>
-![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/warning_color.png)
+![alt text](https://github.com/bopdidus/Beauty/blob/master/warning_color.png)
 - Primary: <br/>
-![alt text](https://github.com/bopdidus/Beauty/blob/c4b01e8c1ca32666fd2038eb4f7b746e446b6928/primary.png)
+![alt text](https://github.com/bopdidus/Beauty/blob/master/primary.png)
 - Secondary : <br/>
-![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/secondary.png)
+![alt text](https://github.com/bopdidus/Beauty/blob/master/secondary.png)
 - Success : <br/>
-![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/success.png)
+![alt text](https://github.com/bopdidus/Beauty/blob/master/success.png)
 
 ## Enum BeautyMessageIcon
   - TickMark
@@ -37,6 +37,6 @@ box.ShowDialog();
 </code>
 ## Examples
 
-![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/warning.png)
+![alt text](https://github.com/bopdidus/Beauty/blob/master/warning.png)
 
-![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/primary_question.png)
+![alt text](https://github.com/bopdidus/Beauty/blob/master/primary_question.png)
