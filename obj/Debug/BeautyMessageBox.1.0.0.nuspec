@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BeautyMessageBox</id>
+    <version>1.0.0</version>
+    <title>Beauty MessageBox</title>
+    <authors>BeautyMessageBox</authors>
+    <description>Package Description</description>
+    <copyright>Brice BOPDA</copyright>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\current_project\BeautyMessageBox\bin\Debug\net6.0-windows\BeautyMessageBox.runtimeconfig.json" target="lib\net6.0-windows7.0\BeautyMessageBox.runtimeconfig.json" />
+    <file src="D:\current_project\BeautyMessageBox\bin\Debug\net6.0-windows\BeautyMessageBox.dll" target="lib\net6.0-windows7.0\BeautyMessageBox.dll" />
+  </files>
+</package>

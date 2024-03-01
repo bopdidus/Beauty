@@ -39,7 +39,7 @@ namespace Beauty
             lbMessage.Text = message;
             ChangeTheme(type);
             ChooseButton(btn);
-            ChooseIcon(BeautyMessageIcon.Information);
+            ChooseIcon(icon);
         }
 
         private void lbClose_Click(object sender, EventArgs e)
@@ -58,7 +58,7 @@ namespace Beauty
                     break;
                 case BeautyMessageType.Primary:
                     paneltheme.BackColor = Color.DeepSkyBlue;
-                    lbIcon.ForeColor = Color.Orange;
+                    lbIcon.ForeColor = Color.DeepSkyBlue;
                     break;
                 case BeautyMessageType.Success:
                     paneltheme.BackColor = Color.LimeGreen;
@@ -68,14 +68,13 @@ namespace Beauty
                     paneltheme.BackColor = Color.SlateGray;
                     lbIcon.ForeColor = Color.SlateGray;
                     break;
-
                 case BeautyMessageType.Warning:
                     paneltheme.BackColor = Color.Orange;
                     lbIcon.ForeColor = Color.Orange;
                     break;
                 default:
                     paneltheme.BackColor = Color.DeepSkyBlue;
-                    lbIcon.ForeColor = Color.Orange;
+                    lbIcon.ForeColor = Color.DeepSkyBlue;
                     break;
             }
         }
@@ -95,6 +94,9 @@ namespace Beauty
                     break;
                 case BeautyMessageIcon.Information:
                     lbIcon.Text = Uri.UnescapeDataString("\u2757");
+                    break;
+                case BeautyMessageIcon.Question:
+                    lbIcon.Text = Uri.UnescapeDataString("\u2753");
                     break;
                 default:
                     lbIcon.Text = Uri.UnescapeDataString("\u2757");

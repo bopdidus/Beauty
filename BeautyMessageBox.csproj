@@ -6,6 +6,9 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Beauty MessageBox</Title>
+    <Copyright>Brice BOPDA</Copyright>
   </PropertyGroup>
 
 </Project>

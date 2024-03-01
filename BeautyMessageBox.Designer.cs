@@ -61,14 +61,14 @@
             // 
             // lbTitle
             // 
-            lbTitle.AutoSize = true;
-            lbTitle.Dock = DockStyle.Bottom;
+            lbTitle.Dock = DockStyle.Fill;
             lbTitle.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            lbTitle.Location = new Point(0, 5);
+            lbTitle.Location = new Point(0, 0);
             lbTitle.Name = "lbTitle";
-            lbTitle.Size = new Size(65, 25);
+            lbTitle.Size = new Size(385, 30);
             lbTitle.TabIndex = 4;
             lbTitle.Text = "label1";
+            lbTitle.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // lbClose
             // 
@@ -110,12 +110,13 @@
             // 
             // lbMessage
             // 
-            lbMessage.AutoSize = true;
-            lbMessage.Location = new Point(140, 71);
+            lbMessage.Dock = DockStyle.Fill;
+            lbMessage.Location = new Point(125, 30);
             lbMessage.Name = "lbMessage";
-            lbMessage.Size = new Size(55, 23);
+            lbMessage.Size = new Size(303, 114);
             lbMessage.TabIndex = 4;
             lbMessage.Text = "label1";
+            lbMessage.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // BeautyMessageBox
             // 
@@ -136,7 +137,6 @@
             panel2.PerformLayout();
             panelIcon.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
