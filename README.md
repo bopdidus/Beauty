@@ -2,15 +2,15 @@
 BeautyMessageBox works exactly like default MessageBox of .NET 
 
 ## Enum BeautyMessageType
-- Error:
+- Error: <br/>
 ![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/error.png)
-- Warning :
+- Warning : <br/>
 ![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/warning_color.png)
-- Primary
+- Primary: <br/>
 ![alt text](https://github.com/bopdidus/Beauty/blob/c4b01e8c1ca32666fd2038eb4f7b746e446b6928/primary.png)
-- Secondary :
+- Secondary : <br/>
 ![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/secondary.png)
-- Success :
+- Success : <br/>
 ![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/success.png)
 
 ## Enum BeautyMessageIcon
