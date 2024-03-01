@@ -12,7 +12,7 @@ namespace Beauty
             // see https://aka.ms/applicationconfiguration.
            
             ApplicationConfiguration.Initialize();
-            var box = new BeautyMessageBox("Info", "Save done !", BeautyMessageType.Success, BeautyMessageButtons.OK, BeautyMessageIcon.TickMark);
+            var box = new BeautyMessageBox("Info", "Save done!", BeautyMessageType.Success, BeautyMessageButtons.OK, BeautyMessageIcon.TickMark);
             Application.Run(box);
         }
     }

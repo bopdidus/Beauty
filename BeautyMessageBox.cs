@@ -32,7 +32,7 @@ namespace Beauty
     public partial class BeautyMessageBox : Form
     {
         DialogResult result;
-        public BeautyMessageBox(string title, string message, BeautyMessageType type, BeautyMessageButtons btn, BeautyMessageIcon? icon)
+        public BeautyMessageBox(string title, string message, BeautyMessageType type, BeautyMessageButtons btn, BeautyMessageIcon icon)
         {
             InitializeComponent();
             lbTitle.Text = title;
@@ -79,7 +79,7 @@ namespace Beauty
             }
         }
 
-        private void ChooseIcon(BeautyMessageIcon? icon)
+        private void ChooseIcon(BeautyMessageIcon icon)
         {
             switch (icon)
             {
