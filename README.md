@@ -27,11 +27,14 @@ BeautyMessageBox works exactly like default MessageBox of .NET
   - OKCancel
 ## How to use it
 * Constructor
- BeautyMessageBox(string title, string message, BeautyMessageType type, BeautyMessageButtons btn, BeautyMessageIcon icon)
+  <code>
+ BeautyMessageBox(string title, string message, BeautyMessageType type, BeautyMessageButtons btn, BeautyMessageIcon icon);
+</code>
 * Example:
+<code>
 var box = new BeautyMessageBox("Info", "Save done!", BeautyMessageType.Success, BeautyMessageButtons.OK, BeautyMessageIcon.TickMark);
 box.ShowDialog();
-
+</code>
 ## Examples
 
 ![alt text](https://github.com/bopdidus/Beauty/blob/94be0c4731d8eb439b166b8f131750c9889241a7/warning.png)
